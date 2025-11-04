@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg role="img" aria-labelledby="title desc" viewBox="0 0 256 256" width="256" height="256"
+     xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <title id="title">Security AI Agent — Laptop (Mono Brand)</title>
+  <desc id="desc">Mono/stylable laptop icon using the provided CSS variables</desc>
+
+  <!-- Laptop screen -->
+  <rect x="44" y="56" width="168" height="108" rx="12"
+        stroke="var(--light-gray, #BFCAD9)" stroke-width="10"/>
+
+  <!-- Keyboard base -->
+  <rect x="36" y="168" width="184" height="28" rx="8"
+        stroke="var(--light-gray, #BFCAD9)" stroke-width="10"/>
+
+  <!-- Hinge detail -->
+  <path d="M104 182 H152"
+        stroke="var(--light-gray, #BFCAD9)" stroke-width="6" opacity="0.6"/>
+
+  <!-- Keyhole -->
+  <g fill="var(--accent-green, #29F280)" stroke="none">
+    <circle cx="128" cy="112" r="9"/>
+    <rect x="123" y="122" width="10" height="22" rx="5"/>
+  </g>
+
+  <!-- Approval badge -->
+  <g transform="translate(206,48)">
+    <circle r="22" fill="white" stroke="var(--accent-green, #29F280)" stroke-width="4"/>
+    <path d="M-8 0 L-1 7 L12 -8" fill="none" stroke="var(--accent-green, #29F280)"
+          stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

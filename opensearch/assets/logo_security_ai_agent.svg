@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="80" viewBox="0 0 400 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1d4ed8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="80" fill="#000000" rx="8"/>
+  
+  <!-- Shield icon -->
+  <g transform="translate(20, 20)">
+    <path d="M20 5L35 10L35 25C35 35 20 45 20 45C20 45 5 35 5 25L5 10L20 5Z" 
+          fill="url(#accentGradient)" 
+          stroke="#ffffff" 
+          stroke-width="1"/>
+    <path d="M15 25L18 28L25 18" 
+          stroke="#ffffff" 
+          stroke-width="2" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+  </g>
+  
+  <!-- AI circuit pattern -->
+  <g transform="translate(60, 25)" opacity="0.7">
+    <rect x="0" y="0" width="8" height="8" fill="url(#accentGradient)" rx="2"/>
+    <rect x="12" y="0" width="8" height="8" fill="url(#accentGradient)" rx="2"/>
+    <rect x="24" y="0" width="8" height="8" fill="url(#accentGradient)" rx="2"/>
+    <rect x="6" y="12" width="8" height="8" fill="url(#accentGradient)" rx="2"/>
+    <rect x="18" y="12" width="8" height="8" fill="url(#accentGradient)" rx="2"/>
+    <rect x="12" y="24" width="8" height="8" fill="url(#accentGradient)" rx="2"/>
+    
+    <!-- Connection lines -->
+    <line x1="8" y1="4" x2="12" y2="4" stroke="url(#accentGradient)" stroke-width="1"/>
+    <line x1="20" y1="4" x2="24" y2="4" stroke="url(#accentGradient)" stroke-width="1"/>
+    <line x1="10" y1="8" x2="10" y2="12" stroke="url(#accentGradient)" stroke-width="1"/>
+    <line x1="22" y1="8" x2="22" y2="12" stroke="url(#accentGradient)" stroke-width="1"/>
+    <line x1="10" y1="20" x2="18" y2="20" stroke="url(#accentGradient)" stroke-width="1"/>
+    <line x1="16" y1="20" x2="16" y2="24" stroke="url(#accentGradient)" stroke-width="1"/>
+  </g>
+  
+  <!-- Main text -->
+  <text x="100" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="url(#textGradient)">
+    Security AI Agent
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="100" y="55" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#94a3b8">
+    Intelligent Security Platform
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="350" cy="25" r="3" fill="url(#accentGradient)" opacity="0.6"/>
+  <circle cx="360" cy="35" r="2" fill="url(#accentGradient)" opacity="0.4"/>
+  <circle cx="345" cy="45" r="2.5" fill="url(#accentGradient)" opacity="0.5"/>
+</svg>

@@ -1,0 +1,35 @@
+# Dependencies
+node_modules
+
+# Build outputs
+.next
+out
+build
+dist
+
+# Cache
+.cache
+*.tsbuildinfo
+
+# Lock files
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+
+# Environment
+.env
+.env*.local
+
+# Generated files
+next-env.d.ts
+
+# Public assets (if needed)
+# public/
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+

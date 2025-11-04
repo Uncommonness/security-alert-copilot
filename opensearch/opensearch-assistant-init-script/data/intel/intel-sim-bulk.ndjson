@@ -1,0 +1,8 @@
+{"index": {"_index": "intel-sim-2025.10.27", "_id": "IND-d05a9ae1"}}
+{"indicator_id": "IND-d05a9ae1", "@timestamp": "2025-10-27T14:48:23Z", "type": "domain", "value": "msupdate-cdn.example.net", "confidence": 85, "tags": ["c2", "beaconing"], "source": "synthetic-feed", "reputation": 73}
+{"index": {"_index": "intel-sim-2025.10.27", "_id": "IND-e0e42fda"}}
+{"indicator_id": "IND-e0e42fda", "@timestamp": "2025-10-27T11:48:23Z", "type": "ip", "value": "203.0.113.50", "confidence": 72, "tags": ["suspicious", "tls"], "source": "synthetic-feed", "reputation": 16}
+{"index": {"_index": "intel-sim-2025.10.27", "_id": "IND-714abf81"}}
+{"indicator_id": "IND-714abf81", "@timestamp": "2025-10-27T14:48:23Z", "type": "sha256", "value": "1d4e23f3d64170663b97d68963a09b1a5b23951d10073dcc96f0c83e16957de7", "confidence": 68, "tags": ["credential-dump"], "source": "synthetic-feed", "reputation": 85}
+{"index": {"_index": "intel-sim-2025.10.27", "_id": "IND-8ca0fca8"}}
+{"indicator_id": "IND-8ca0fca8", "@timestamp": "2025-10-27T12:48:23Z", "type": "domain", "value": "api-telemetry.example.info", "confidence": 61, "tags": ["dns", "beaconing"], "source": "synthetic-feed", "reputation": 84}

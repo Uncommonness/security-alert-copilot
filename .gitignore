@@ -1,0 +1,89 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env*.local
+.env.production
+.env.development
+.env.test
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Node modules (if any in root)
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Uploads
+uploads/
+*.pdf
+*.docx
+*.xlsx
+dashboard/uploads/*
+!dashboard/uploads/.gitkeep
+
+# Certificates
+*.pem
+*.key
+*.crt
+*.cert
+
+# Docker & OpenSearch Config
+.dockerignore
+docker-compose.yaml
+docker-compose.yml
+Dockerfile
+Dockerfile.*
+opensearch/config/opensearch.yml
+opensearch/config/opensearch_dashboards.yml
+
+# Misc
+.vercel
+.next/
+out/
+*.tsbuildinfo
+

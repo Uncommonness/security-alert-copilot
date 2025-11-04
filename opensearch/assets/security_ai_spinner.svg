@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="spinnerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="glowEffect" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.8" />
+      <stop offset="30%" style="stop-color:#2563eb;stop-opacity:0.6" />
+      <stop offset="70%" style="stop-color:#10b981;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#1f2937" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Main spinning ring -->
+  <circle cx="100" cy="100" r="70" 
+          fill="none" 
+          stroke="url(#spinnerGradient)" 
+          stroke-width="8" 
+          stroke-linecap="round" 
+          stroke-dasharray="120 320" 
+          stroke-dashoffset="0"
+          opacity="0.9">
+    <animateTransform 
+      attributeName="transform" 
+      type="rotate" 
+      values="0 100 100;360 100 100" 
+      dur="1.5s" 
+      repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Secondary spinning ring (counter-clockwise) -->
+  <circle cx="100" cy="100" r="60" 
+          fill="none" 
+          stroke="url(#spinnerGradient)" 
+          stroke-width="6" 
+          stroke-linecap="round" 
+          stroke-dasharray="80 300" 
+          stroke-dashoffset="40"
+          opacity="0.7">
+    <animateTransform 
+      attributeName="transform" 
+      type="rotate" 
+      values="360 100 100;0 100 100" 
+      dur="2s" 
+      repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Inner pulsing dots -->
+  <circle cx="100" cy="100" r="4" fill="url(#spinnerGradient)">
+    <animate attributeName="r" values="4;8;4" dur="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.5;1" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Security shield icon in center -->
+  <g transform="translate(100, 100)">
+    <path d="M0 -15L12 -8L12 8C12 18 0 28 0 28C0 28 -12 18 -12 8L-12 -8L0 -15Z" 
+          fill="url(#spinnerGradient)" 
+          opacity="0.8">
+      <animateTransform 
+        attributeName="transform" 
+        type="rotate" 
+        values="0 0 0;360 0 0" 
+        dur="3s" 
+        repeatCount="indefinite"/>
+    </path>
+    <path d="M-4 4L-2 6L4 -2" 
+          stroke="#ffffff" 
+          stroke-width="2" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          opacity="0.9"/>
+  </g>
+  
+  <!-- Glow effect -->
+  <circle cx="100" cy="100" r="90" fill="url(#glowEffect)" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
